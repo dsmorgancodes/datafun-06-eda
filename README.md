@@ -12,6 +12,8 @@ This project is a custom Exploratory Data Analysis (EDA) using GitHub, Git, Jupy
 
 **Name:** Titanic Dataset (Seaborn built-in)
 
+The Titanic dataset contains demographic and travel information for 891 of the 2,224 passengers and crew aboard the RMS Titanic, which sank on April 15, 1912 after colliding with an iceberg during its maiden voyage from Southampton to New York City. The dataset is commonly used for binary classification and exploratory analysis, with the key variable being whether a passenger survived the disaster. It includes a mix of numerical features (age, fare, family size), categorical features (sex, passenger class, port of embarkation), and derived boolean indicators (adult male, traveling alone). This version is the cleaned, built-in dataset provided by the Seaborn visualization library.
+
 **Source:** [Seaborn Titanic Dataset](https://github.com/mwaskom/seaborn-data/blob/master/titanic.csv)
 
 **Records:** 891 rows
