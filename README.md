@@ -40,22 +40,26 @@ The Titanic dataset contains demographic and travel information for 891 of the 2
 
 ## How to Set Up and Run This Project
 
-### 1. Create and Activate Virtual Environment
+### 1. Install uv (if needed)
 
 ```bash
-python3 -m venv .venv
-source .venv/bin/activate
+brew install uv
 ```
 
-### 2. Install Dependencies
+### 2. Create Virtual Environment and Sync Dependencies
 
 ```bash
-pip install -r requirements.txt
+uv venv .venv
+uv sync
 ```
 
 ### 3. Run the Notebook
 
-Open `notebooks/dsmorgan_eda.ipynb` in VS Code or JupyterLab and run all cells.
+```bash
+uv run jupyter lab
+```
+
+Open `notebooks/dsmorgan_eda.ipynb` in VS Code or JupyterLab and run all cells from top to bottom.
 
 ## External Dependencies
 
